@@ -101,7 +101,6 @@ MALICIOUS_THRESHOLD = 50.0
 # ==========================================
 # UI LAYOUT
 # ==========================================
-# st.set_page_config en üstte (importlardan hemen sonra) olmalı
 st.set_page_config(page_title="Prompt Injection Detector", page_icon="🛡️", layout="wide")
 
 st.title("🛡️ LLM Security: Prompt Injection Detection")
@@ -116,7 +115,6 @@ with col1:
     user_prompt = st.text_area("Ask a question or give a command to the LLM:", height=150)
     submit_btn = st.button("Submit 🚀")
     
-    # Uyarıların ve LLM cevabının burada çıkması için boş bir alan ayırıyoruz
     chat_result_box = st.empty() 
 
 with col2:
