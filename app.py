@@ -14,8 +14,6 @@ BLOCK_THRESHOLD     = 0.65   # Above this → block
 MODEL_DIR = "./distilbert_context_aware_model"
 
 
-import re
-
 # ==========================================
 # TIER 1 — SURGICAL REGEX
 #
@@ -39,7 +37,7 @@ _MANIPULATE = r"(?:manipulat(?:e|es|ed|ing)|modif(?:y|ies|ied|ying)|alter(?:s|ed
 _RECON_VERB = r"(?:discover(?:s|ed|ing)?|scan(?:s|ned|ning)?\s+for|find(?:s|ing)?|enumerat(?:e|es|ed|ing)|search(?:es|ed|ing)?\s+for|list(?:s|ed|ing)?)"
 
 # Harmful objects
-_MALWARE  = r"(?:keylog(?:ger|ging)?|virus|ransomware|malware|trojan|rootkit|spyware|worm|backdoor|reverse\s+shell|botnet|shellcode|exploit\s+(?:code|script)|payload(?:s)?)"
+_MALWARE  = r"(?:keylog(?:ger|ging)?|hack(?:er|s|ers|ing)?|virus|ransomware|malware|trojan|rootkit|spyware|worm|backdoor|reverse\s+shell|botnet|shellcode|exploit\s+(?:code|script)|payload(?:s)?)"
 _ATTACK   = r"(?:sql\s+injection|sqli|xss|cross.site\s+scripting|csrf|ssrf|rce|remote\s+code\s+execution|buffer\s+overflow|privilege\s+escalation|directory\s+traversal|path\s+traversal|command\s+injection)"
 _PHISH    = r"(?:phish(?:ing|es|ed)?|fake\s+login\s+page(?:s)?|credential\s+harvest(?:ing)?|account\s+takeover\s+page(?:s)?)"
 _EXFOBJ   = r"(?:system\s+prompt(?:s)?|conversation\s+history|context\s+window|internal\s+instruction(?:s)?|prior\s+message(?:s)?)"
