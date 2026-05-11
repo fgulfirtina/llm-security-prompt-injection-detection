@@ -88,10 +88,10 @@ Prompts that pass Tier 1 undergo semantic analysis using a fine-tuned `distilber
 **Model Performance:**
 | Metric | Score |
 |--------|-------|
-| Accuracy | 93.2% |
-| Precision | 91.8% |
-| Recall | 94.5% |
-| F1 Score | 93.1% |
+| Accuracy | 93.68% |
+| Precision | 95.83% |
+| Recall | 92.00% |
+| F1 Score | 93.87% |
 
 ### Tier 3 — Local Guardian AI Agent
 
@@ -256,7 +256,7 @@ prompt_injection_detection_model/
 
 ## About This Project
 
-This project was developed as a university final project in AI and cybersecurity, focusing on LLM security, adversarial machine learning, and defense-in-depth architectures. The system evolved from a simple binary classifier into a full multi-agent platform as each layer's limitations became clear during development and testing.
+This project was developed as a university project in AI and cybersecurity, focusing on LLM security, adversarial machine learning, and defense-in-depth architectures. The system evolved from a simple binary classifier into a full multi-agent platform as each layer's limitations became clear during development and testing.
 
 ## Author
 
