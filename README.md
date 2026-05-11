@@ -272,6 +272,10 @@ prompt_injection_detection_model/
 
 <img width="945" height="453" alt="image" src="https://github.com/user-attachments/assets/8fb6ca11-2930-4638-9093-5aa3ec87d8c0" />
 
+--
+
+<img width="945" height="489" alt="image" src="https://github.com/user-attachments/assets/97e31394-3052-40f1-bd85-4d88cc3b5b72" />
+
 ---
 
 ## About This Project
