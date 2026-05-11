@@ -254,6 +254,26 @@ prompt_injection_detection_model/
 
 ---
 
+## Screenshots
+
+#### Regex blocking:
+
+<img width="945" height="452" alt="image" src="https://github.com/user-attachments/assets/5d2af342-3812-4db3-be3f-7ec7f190a8dc" />
+
+#### DistilBERT blocking:
+
+<img width="945" height="386" alt="image" src="https://github.com/user-attachments/assets/539ba94b-92d0-41b2-9ba5-3ceca18de06f" />
+
+#### qwen3:8b blocking:
+
+<img width="945" height="502" alt="image" src="https://github.com/user-attachments/assets/d585805e-1073-45e0-84d6-e4412349983a" />
+
+#### Policy enforcement layer:
+
+<img width="945" height="453" alt="image" src="https://github.com/user-attachments/assets/8fb6ca11-2930-4638-9093-5aa3ec87d8c0" />
+
+---
+
 ## About This Project
 
 This project was developed as a university project in AI and cybersecurity, focusing on LLM security, adversarial machine learning, and defense-in-depth architectures. The system evolved from a simple binary classifier into a full multi-agent platform as each layer's limitations became clear during development and testing.
